@@ -36,6 +36,7 @@ def update_command():
     backend.update(selected_tuple[0],title_text.get(),author_text.get(),year_text.get(),isbn_text.get())
     
 root= Tk()
+root.iconbitmap('icon.ico')
 
 root.title("BookStore")
 l1=Label(root,text="Title")
